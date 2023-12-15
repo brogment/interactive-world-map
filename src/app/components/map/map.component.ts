@@ -13,7 +13,7 @@ export class MapComponent implements OnInit{
 
       svgCountry.addEventListener('mouseover', (event:MouseEvent)=> {
         const path = event.target as SVGPathElement;
-        path.style.fill = 'blue';
+        path.style.fill = 'brown';
       });
 
       svgCountry.addEventListener('mouseleave', (event:MouseEvent)=> {
